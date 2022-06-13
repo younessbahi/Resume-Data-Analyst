@@ -27189,11 +27189,11 @@ body{background:#FFF;text-align:left;font-feature-settings:"liga" 0;-moz-font-fe
 .skn-srz7 .left-box{box-sizing:initial;position:relative;width:100%}
 .skn-srz7 .left-box{width:75%;flex-grow:1}
 #FIELD_FNAM {
-    font-family: 'Century Gothic' !important;
-    font-weight: lighter;
+    /*font-family: 'Century Gothic' !important;
+    font-weight: lighter;*/
 }
 #FIELD_DCTL {
-    font-family: 'Century Gothic' !important;
+    /*font-family: 'Century Gothic' !important;*/
     font-weight: lighter;
     font-size: 180% !important;
 }
