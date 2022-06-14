@@ -17,7 +17,7 @@
 }
 
 .goog-te-gadget .goog-te-combo {
-    float: right !important;
+    right: 0 !important;
     margin: 5px 21px 5px !important;
     font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
     -webkit-font-smoothing: antialiased !important;
@@ -27,7 +27,7 @@
     padding-right: 32px !important;
     padding-left: 9px !important;
     color: rgb(50, 49, 48) !important;
-    position: relative !important;
+    position: fixed !important;
     outline: 0px !important;
     background-color: rgb(255, 255, 255) !important;
     cursor: text !important;
