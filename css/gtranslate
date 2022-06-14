@@ -1,0 +1,42 @@
+
+.goog-te-banner {
+    background-image: none !important;
+}
+
+.goog-logo-link {
+    display: none !important;
+}
+
+#goog-gt-tt {
+    display: none !important;
+}
+.goog-te-gadget{
+    color:transparent!important;
+}
+.goog-te-banner-frame{
+    display:none !important;
+}
+
+.goog-te-gadget .goog-te-combo {
+    float: right !important;
+    margin: 5px 21px 5px !important;
+    font-family: "Segoe UI", "Segoe UI Web (West European)", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif !important;
+    -webkit-font-smoothing: antialiased !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    box-shadow: none !important;
+    padding-right: 32px !important;
+    padding-left: 9px !important;
+    color: rgb(50, 49, 48) !important;
+    position: relative !important;
+    outline: 0px !important;
+    background-color: rgb(255, 255, 255) !important;
+    cursor: text !important;
+    display: block !important;
+    height: 32px !important;
+    white-space: nowrap !important;
+    text-overflow: ellipsis !important;
+    box-sizing: border-box !important;
+    max-width: 300px !important;
+    user-select: none !important;
+}
