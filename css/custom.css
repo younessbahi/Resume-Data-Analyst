@@ -1,0 +1,68 @@
+/*button folding style*/
+
+.btn-31 {
+    display: block;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 0.8rem 3.5rem;
+    margin: 0.5rem;
+    position: fixed;
+    background: none;
+    color: black;
+    text-transform: uppercase;
+    border: 1px solid #585858;
+    --progress: 100%;
+}
+
+.btn-31:before {
+    content: "";
+    z-index: -1;
+
+    position: absolute;
+    inset: 0;
+
+
+    background: #ffa72f !important;
+    clip-path: polygon(
+            100% 0,
+            var(--progress) var(--progress),
+            0 100%,
+            100% 100%
+    );
+    transition: clip-path 0.2s;
+}
+.btn-31:hover {
+    --progress: 0%;
+}
+
+.btn-31 .text-container {
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+.btn-31 .text {
+    display: block;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 900;
+    mix-blend-mode: multiply;
+}
+.btn-31:hover .text {
+    animation: move-up-alternate 0.3s forwards;
+    will-change: transform;
+}
+
+@keyframes move-up-alternate {
+    from {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(80%);
+    }
+    51% {
+        transform: translateY(-80%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
